@@ -8,8 +8,8 @@ function HarmadikSzab(props) {
     <div className="w-full flex flex-col justify-start items-center">
       <Image width={187.5} height={51} src={Logo} alt="The ReHal logo"></Image>
       <h1 className="text-3xl font-bold">&quot;C&quot; lehetőség</h1>
-      <p>Találjanak ki önök saját játékszabályt, és osszák ezt meg velünk Instagramon, a “#rehaljatek” hashtaget használva, vagy keressenek további játékötleteket a @rehal_e5vos Instagram fiók posztjai között.
-</p>
+      <p>Találjatok ki saját játékszabályt, és osszátok ezt meg velünk Instagramon, a “#rehaljatek” hashtaget használva, vagy keressetek további játékötleteket a @rehal_e5vos Instagram fiók posztjai között.
+      </p>
 <Link href="/" passHref><h1 className="underline decoration-wavy cursor-pointer">Vissza</h1></Link>
     </div>
   )

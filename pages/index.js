@@ -15,20 +15,18 @@ function Home() {
             <p className="w-full">
                 Kedves Vásárló!
                 <br/>
-                Először is kérlek engedd meg nekünk, hogy megköszünjük, azt, hogy iskolánkat egy lépéssel közelebb jutattad egy új zongora vásárlásának lehetőségéhez.
+                Először is kérlek engedd meg nekünk, hogy megköszönjük, azt, hogy iskolánkat egy lépéssel közelebb jutattad egy új zongora vásárlásának lehetőségéhez.
                 <br/>
                 Minőségi tartalmakért figyelmedbe ajánljuk az <a className="underline decoration-black decoration-wavy text-black" href="https://www.instagram.com/rehal_e5vos/">Instagram oldalunkat (@rehal_e5vos)</a>.
                 <br/>
-                Játék előtt fontos eldönteni, hogy ki fog kezdeni. Azt javasoljuk, hogy erre használjátok a &quot;Ki evett utoljára halat?&quot; módszer. Játékunkat több mint 3 (három) módon játszatod:
+                Játék előtt fontos eldönteni, hogy ki fog kezdeni. Azt javasoljuk, hogy erre használjátok a &quot;Ki evett utoljára halat?&quot; módszert. Játékunkat több mint 3 (három) módon játszhatod:
             </p>
             <ul>
                 <li className="underline decoration-wavy">- <Link href="/alehetoseg">&quot;A&quot; lehetőség</Link></li>
                 <li className="underline decoration-wavy">- <Link href="/blehetoseg">&quot;B&quot; lehetőség</Link></li>
                 <li className="underline decoration-wavy">- <Link href="/clehetoseg">&quot;C&quot; lehetőség</Link></li>
             </ul>
-            <p className="w-full">Ha ezeket elolvastad (vagy nem), akkor mi el is köszönnénk tőled. Szeretnénk jó szórakozást és jó játékot kívánni neked és társaidnak!<br/><br/> Sok szeretettel, az Eötvös József Gimnázium 2021/22 évfolyamának &quot;B&quot; osztályának ReHal csapata.</p>
-            <br/>
-            <p className="w-full">UI.: A kártyán lévő aláírások egyszer még sokat érhetnek, javasojuk, hogy tartsd meg!</p>
+            <p className="w-full">Ha ezeket elolvastad (vagy nem), akkor mi el is köszönnénk tőled. Szeretnénk jó szórakozást és jó játékot kívánni neked és társaidnak!<br/><br/> Sok szeretettel, az Eötvös József Gimnázium 2021/22 évfolyam &quot;B&quot; osztályának ReHal csapata.</p>
         </div>
       </>
   )

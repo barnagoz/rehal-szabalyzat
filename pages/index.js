@@ -7,26 +7,31 @@ function Home() {
   return (
       <>
         <Head>
-          <title>ReHal játékszabály(ok)</title>
+          <title>ReHal - újrahasznosítva</title>
         </Head>
         <div className="w-full flex flex-col justify-start items-center">
             <Image width={187.5} height={51} src={Logo} alt="The ReHal logo"></Image>
-            <h1 className="text-3xl font-bold">Játékszabályok</h1>
+            <h1 className="text-3xl font-bold">Kezdőlap</h1>
             <p className="w-full">
-                Kedves Vásárló!
+                Kedves látogató!
                 <br/>
-                Először is kérlek engedd meg nekünk, hogy megköszönjük, azt, hogy iskolánkat egy lépéssel közelebb jutattad egy új zongora vásárlásának lehetőségéhez.
+                Üdvözöllek a ReHal hivatalos weboldalán! Köszönjük, hogy a projektünkkel kapcsolatos érdeklődésed ide vezetett.
                 <br/>
-                Minőségi tartalmakért figyelmedbe ajánljuk az <a className="underline decoration-black decoration-wavy text-black" href="https://www.instagram.com/rehal_e5vos/">Instagram oldalunkat (@rehal_e5vos)</a>.
                 <br/>
-                Játék előtt fontos eldönteni, hogy ki fog kezdeni. Azt javasoljuk, hogy erre használjátok a &quot;Ki evett utoljára halat?&quot; módszert. Játékunkat több mint 3 (három) módon játszhatod:
+                Ha még nem tudnád, a projektünk célja az, hogy a társasjátékokat pénzügyileg elérhetőbbé tegyük, és ezzel a bolygónk megmentését is segítsük. Ennek pontosabb kifejtését és az eléréséhez szükséges tervet a <Link href="/terv" passHref><span className="decoration-wavy underline cursor-pointer">&quot;TERVÜNK&quot;</span></Link> oldalon éred el.
+                <br/>
+                Viszont sok más ok is lehet, ami válaszol a kérdésre, hogy miért tévedtél ide, ezekhez itt találsz oldalakat:
             </p>
             <ul>
-                <li className="underline decoration-wavy">- <Link href="/alehetoseg">&quot;A&quot; lehetőség</Link></li>
-                <li className="underline decoration-wavy">- <Link href="/blehetoseg">&quot;B&quot; lehetőség</Link></li>
-                <li className="underline decoration-wavy">- <Link href="/clehetoseg">&quot;C&quot; lehetőség</Link></li>
+                <li className="underline decoration-wavy">- <Link href="/jatekszabaly">&quot;KÁRTYAPAKLI JÁTÉKSZABÁLY&quot;</Link></li>
+                <li className="underline decoration-wavy">- <Link href="/terv">&quot;TERVÜNK&quot;</Link></li>
+                <li className="underline decoration-wavy">- <Link href="/hirek">&quot;HÍREK&quot;</Link></li>
             </ul>
-            <p className="w-full">Ha ezeket elolvastad (vagy nem), akkor mi el is köszönnénk tőled. Szeretnénk jó szórakozást és jó játékot kívánni neked és társaidnak!<br/><br/> Sok szeretettel, az Eötvös József Gimnázium 2021/22 évfolyam &quot;B&quot; osztályának ReHal csapata.</p>
+            <p className="w-full">A <Link href="/hirek" passHref><span className="decoration-wavy underline cursor-pointer">&quot;HÍREK&quot;</span></Link> oldal mellett rendszeresen frissítjük <a className="underline decoration-black decoration-wavy text-black" href="https://www.instagram.com/rehal_e5vos/">Instagram oldalunkat</a> is, ahol gyorsabban értesülhetsz híreinkről.</p>
+            <br/>
+            <p className="w-full">
+              Reméljük te is azonosulni tudsz céljainkkal és továbbra is érdeklődéssel fordulsz majd a projektünk felé! 
+            </p>
         </div>
       </>
   )

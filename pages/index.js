@@ -18,13 +18,13 @@ function Home() {
                 Üdvözöllek a ReHal hivatalos weboldalán! Köszönjük, hogy a projektünkkel kapcsolatos érdeklődésed ide vezetett.
                 <br/>
                 <br/>
-                Ha még nem tudnád, a projektünk célja az, hogy a társasjátékokat pénzügyileg elérhetőbbé tegyük, és ezzel a bolygónk megmentését is segítsük. Ennek pontosabb kifejtését és az eléréséhez szükséges tervet a <Link href="/terv" passHref><span className="decoration-wavy underline cursor-pointer">&quot;TERVÜNK&quot;</span></Link> oldalon éred el.
+                Ha még nem tudnád, a projektünk célja az, hogy a társasjátékokat pénzügyileg elérhetőbbé tegyük, és ezzel a bolygónk megmentését is segítsük. Ennek pontosabb kifejtését a <Link href="/tortenet" passHref><span className="decoration-wavy underline cursor-pointer">&quot;TÖRTÉNETÜNK&quot;</span></Link> oldalon éred el.
                 <br/>
                 Viszont sok más ok is lehet, ami válaszol a kérdésre, hogy miért tévedtél ide, ezekhez itt találsz oldalakat:
             </p>
             <ul>
                 <li className="underline decoration-wavy">- <Link href="/jatekszabaly">&quot;KÁRTYAPAKLI JÁTÉKSZABÁLY&quot;</Link></li>
-                <li className="underline decoration-wavy">- <Link href="/terv">&quot;TERVÜNK&quot;</Link></li>
+                <li className="underline decoration-wavy">- <Link href="/tortenet">&quot;TÖRTÉNETÜNK&quot;</Link></li>
                 <li className="underline decoration-wavy">- <Link href="/hirek">&quot;HÍREK&quot;</Link></li>
             </ul>
             <p className="w-full">A <Link href="/hirek" passHref><span className="decoration-wavy underline cursor-pointer">&quot;HÍREK&quot;</span></Link> oldal mellett rendszeresen frissítjük <a className="underline decoration-black decoration-wavy text-black" href="https://www.instagram.com/rehal_e5vos/">Instagram oldalunkat</a> is, ahol gyorsabban értesülhetsz híreinkről.</p>

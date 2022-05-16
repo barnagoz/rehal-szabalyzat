@@ -15,15 +15,19 @@ function Jatekszabaly() {
             <p className="w-full">
                 Kedves játékos!
                 <br/>
-                <br/>
-                Játék előtt fontos eldönteni, hogy ki fog kezdeni. Azt javasoljuk, hogy erre használjátok a &quot;Ki evett utoljára halat?&quot; módszert. Játékunkat több mint 3 (három) módon játszhatod:
+                Először is nagyon köszönjük, hogy a ReHal kártyapaklit választottad. Jó szórakozást! Játék előtt fontos eldönteni, hogy ki fog kezdeni. Azt javasoljuk, hogy erre használjátok a &quot;Ki evett utoljára halat?&quot; módszert. Játékunkat több mint 2 módon játszhatod:
             </p>
             <ul>
                 <li className="underline decoration-wavy">- <Link href="/alehetoseg">&quot;A&quot; lehetőség</Link></li>
                 <li className="underline decoration-wavy">- <Link href="/blehetoseg">&quot;B&quot; lehetőség</Link></li>
-                <li className="underline decoration-wavy">- <Link href="/clehetoseg">&quot;C&quot; lehetőség</Link></li>
             </ul>
-            <p className="w-full">Ha ezeket elolvastad (vagy nem), akkor mi el is köszönnénk tőled. Szeretnénk jó szórakozást és jó játékot kívánni neked és társaidnak!<br/><br/> Sok szeretettel, az Eötvös József Gimnázium 2021/22 évfolyam &quot;B&quot; osztályának ReHal csapata.</p>
+            <br/>
+            <p>
+              <span className="font-bold">Fontos hírünk van!</span> <br/>
+              Elindult az új játékszabály beküldő platformunk. Mostantól játékszabályaidat <a href="https://md0jgab4t0n.typeform.com/to/Stup0eVs" className="underline decoration-wavy cursor-pointer">ide kattintva</a> tudod beküldeni.
+            </p>
+            <br/>
+            <p className="w-full">Ha ezeket elolvastad, akkor mi el is köszönnénk tőled. Szeretnénk jó szórakozást és jó játékot kívánni neked és társaidnak!<br/> Sok szeretettel, az Eötvös József Gimnázium 2021/22 évfolyam &quot;B&quot; osztályának ReHal csapata.</p>
             <Link href="/" passHref><h1 className="underline decoration-wavy cursor-pointer">Vissza</h1></Link>
         </div>
       </>

@@ -26,6 +26,7 @@ function Home() {
                 <li className="underline decoration-wavy">- <Link href="/jatekszabaly">&quot;KÁRTYAPAKLI JÁTÉKSZABÁLY&quot;</Link></li>
                 <li className="underline decoration-wavy">- <Link href="/tortenet">&quot;TÖRTÉNETÜNK&quot;</Link></li>
                 <li className="underline decoration-wavy">- <Link href="/hirek">&quot;HÍREK&quot;</Link></li>
+                <li className="underline decoration-wavy">- <Link href="/gyik">&quot;GYAKRAN ISMÉTELT KÉRDÉSEK&quot;</Link></li>
             </ul>
             <p className="w-full">A <Link href="/hirek" passHref><span className="decoration-wavy underline cursor-pointer">&quot;HÍREK&quot;</span></Link> oldal mellett rendszeresen frissítjük <a className="underline decoration-black decoration-wavy text-black" href="https://www.instagram.com/rehal_e5vos/">Instagram oldalunkat</a> is, ahol gyorsabban értesülhetsz híreinkről.</p>
             <br/>

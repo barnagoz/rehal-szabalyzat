@@ -1,9 +1,11 @@
 import '../styles/globals.css'
 import Script from 'next/script';
+import Logo from '../public/logo.jpg'
+import Image from 'next/image';
 
 function MyApp({ Component, pageProps }) {
   return (
-  <div className="w-screen lg:min-h-screen min-;h-full flex justify-center p-2 font-poppins">
+  <div className="w-screen lg:min-h-screen min-;h-full flex-col flex justify-center items-center p-2 font-poppins">
     <div id="fb-root"></div>
 
 <div id="fb-customer-chat" className="fb-customerchat"></div>
@@ -29,7 +31,8 @@ function MyApp({ Component, pageProps }) {
       }(document, 'script', 'facebook-jssdk'));
   `}
 </Script>
-    <div className="w-full lg:w-5/12 border-8 border-black rounded-lg min-h-full p-2 shadow-3xl">
+<Image width={187.5} height={51} src={Logo} alt="The ReHal logo"></Image>
+    <div className="w-full lg:w-5/12 border-10 border-black rounded-lg min-h-full p-2 shadow-3xl font-poppins text-black">
       <Component {...pageProps} />
     </div>
   </div>
